@@ -1,0 +1,52 @@
+.page-wrap {
+  padding: 10px;
+}
+
+.content-wrap {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  .left {
+    float: left;
+    width: 400px;
+    height: 450px;
+    float: left;
+    margin-right: 10px;
+    box-shadow: 0 0 2px 2px gainsboro;
+  }
+
+  .right {
+    float: left;
+    width: 400px;
+    height: 450px;
+    box-shadow: 0 0 2px 2px gainsboro;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  h4 {
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: black;
+    color: white;
+  }
+
+  .img-wrap{
+    width: 400px;
+    height: 400px;
+    overflow: auto;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+}
+
+.info {
+  height: auto;
+}
